@@ -1,0 +1,41 @@
+{
+  "name": "odoyle",
+  "version": "0.0.1",
+  "description": "A rules engine for node. O'Doyle Rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "bin/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/romanmt/odoyle.git"
+  },
+  "keywords": [
+    "rules",
+    "logic"
+  ],
+  "author": "Matt Roman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romanmt/odoyle/issues"
+  },
+  "homepage": "https://github.com/romanmt/odoyle",
+  "dependencies": {
+    "async": "^1.0.0",
+    "bulk-load": "0.0.1",
+    "lodash": "^3.9.2"
+  },
+  "jshintConfig": {
+    "eqeqeq": true,
+    "indent": 2,
+    "esnext": true,
+    "asi": true,
+    "maxlen": 80,
+    "singleGroups": true,
+    "unused": true
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
